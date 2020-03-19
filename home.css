@@ -42,7 +42,7 @@ body{min-height: 50%;}
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.8);
           position:sticky;
-          top: 15%;
+          top: 10%;
           text-align: center;
 
 
@@ -53,26 +53,6 @@ body{min-height: 50%;}
           font-size: 80px;
           border: 5px solid #f1f1f1;
 }
-
-.myList {
-  font-size: 30px;
-  list-style-type: none;
-  text-align: center;
-
-}
-
-.list-centered {
-    margin: 0 auto;
-    width: fit-content;
-    width: -moz-fit-content;
-    width: -webkit-fit-content;
-    font-size: 30px;
-
-    .list-item {
-        float: left;
-    }
-}
-
 
 .bg-textTop {
           background-color: rgb(0,0,0);
@@ -98,15 +78,33 @@ body{min-height: 50%;}
           background-color: rgba(0,0,0, 0.8);
           position:relative;
           top: 300px;
-          height: 400px;
+          height: auto;
           width: 100%;
           text-align: center;
           padding: 50px;
           color: white;
-
           font-size: 80px;
           border-top: 10px solid black ;
           border-bottom: 10px solid black ;
-          white-space: nowrap;
-          overflow: hidden;
+          white-space:normal;
+          overflow:visible;
+
+}
+
+
+.myList {
+  font-size: 30px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.list-centered {
+    margin: 0 auto;
+    width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    font-size: 30px;
+    .list-item {
+        float: left;
+    }
 }
