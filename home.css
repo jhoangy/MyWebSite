@@ -36,6 +36,10 @@ body{min-height: 50%;}
 
 }
 
+.img4 { background-image: url("https://media.giphy.com/media/4oMoIbIQrvCjm/giphy.gif");
+
+}
+
 
 /* Position text in the middle of the page/image */
 .bg-text {
